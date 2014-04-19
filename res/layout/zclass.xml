@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grade"
+            android:id="@+id/grade_text"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E"
+            android:id="@+id/grade"
+            android:layout_toRightOf="@+id/grade_text"
+            android:layout_alignTop="@+id/grade_text"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/percent"
+            android:id="@+id/percent_text"
+            android:layout_alignParentLeft="false"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/grade"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0%"
+            android:id="@+id/percent"
+            android:layout_toRightOf="@+id/percent_text"
+            android:layout_alignTop="@+id/grade_text"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/teacher"
+            android:id="@+id/teacher_text"
+            android:layout_alignLeft="@+id/grade_text"
+            android:layout_below="@+id/grade_text"
+            android:layout_marginTop="8dp"/>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/teacher"
+            android:layout_alignParentLeft="false"
+            android:layout_marginLeft="10dp"
+            android:layout_alignTop="@+id/teacher_text"
+            android:layout_toRightOf="@+id/teacher_text"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/period"
+            android:id="@+id/period_text"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/percent"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/period"
+            android:layout_toRightOf="@+id/period_text"
+            android:layout_alignTop="@+id/grade_text"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/assignments_text"
+            android:layout_alignLeft="@+id/grade_text"
+            android:layout_below="@+id/teacher_text"
+            android:layout_marginTop="20dp"
+            android:text="@string/assignments"/>
+
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/scrollView"
+            android:layout_below="@+id/assignments_text"/>
+
+</RelativeLayout>

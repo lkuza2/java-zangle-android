@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zangle</string>
+    <string name="username_text">Username: </string>
+    <string name="password_text">Password: </string>
+    <string name="login">Login</string>
+    <string name="login_long">Log In To Zangle</string>
+
+    <string name="login_failed">Log In Failed</string>
+    <string name="ok">OK</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="assignment_name">Assignment Name: </string>
+    <string name="due_date">Due Date: </string>
+    <string name="percent">Percent: </string>
+    <string name="details">Details: </string>
+    <string name="score">Score: </string>
+    <string name="extra_credit">Extra Credit: </string>
+    <string name="graded">Graded: </string>
+
+    <string name="grade">Grade: </string>
+    <string name="teacher">Teacher: </string>
+    <string name="period">Period: </string>
+    <string name="assignments">Assignments:</string>
+
+    <string name="refresh">Refresh</string>
+    <string name="user_info">User Info</string>
+    <string name="log_out">Log Out</string>
+
+    <string name="name">Name: </string>
+    <string name="school">School: </string>
+
+    <string name="about">About</string>
+    <string name="app_long_name">Zangle/MI Star App</string>
+    <string name="app_description">A clean,Holo designed Zangle/MI Star App for Android, with goal of being fast and easy to use, with a large set of simple features.</string>
+    <string name="app_author">Created By Luke Kuza</string>
+    <string name="app_version_text">Version: </string>
+    <string name="app_version">0.5.5</string>
+
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/assignment_name"
+            android:id="@+id/assignment_name_text"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"/>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/assignment_name"
+            android:layout_toRightOf="@+id/assignment_name_text"
+            android:layout_alignTop="@+id/assignment_name_text"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/due_date"
+            android:id="@+id/due_date_text"
+            android:layout_alignLeft="@+id/assignment_name_text"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:textSize="10dp"
+            android:layout_below="@+id/assignment_name"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/due_date"
+            android:layout_toRightOf="@+id/due_date_text"
+            android:layout_alignTop="@+id/due_date_text"
+            android:textSize="10dp"
+            android:layout_alignRight="@+id/assignment_name_text"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/percent"
+            android:id="@+id/percent_text"
+            android:textSize="10dp"
+            android:layout_toRightOf="@+id/score"
+            android:layout_alignTop="@+id/due_date_text"
+            android:layout_below="@+id/assignment_name"/>
+
+    <TextView
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/percent"
+            android:layout_toRightOf="@+id/percent_text"
+            android:layout_alignTop="@+id/due_date_text"
+            android:textSize="10dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/score"
+            android:id="@+id/score_text"
+            android:layout_alignLeft="@+id/assignment_name_text"
+            android:layout_alignParentTop="false"
+            android:textSize="10dp"
+            android:layout_below="@+id/due_date_text"
+            android:layout_marginTop="10dp"/>
+
+    <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/score"
+            android:layout_toRightOf="@+id/score_text"
+            android:layout_alignTop="@+id/score_text"
+            android:textSize="10dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/extra_credit"
+            android:id="@+id/extra_credit_text"
+            android:layout_alignLeft="@+id/percent_text"
+            android:layout_alignTop="@+id/score_text"
+            android:textSize="10dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no"
+            android:id="@+id/extra_credit"
+            android:layout_toRightOf="@+id/extra_credit_text"
+            android:layout_alignTop="@+id/score_text"
+            android:textSize="10dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/graded"
+            android:id="@+id/graded_text"
+            android:layout_alignLeft="@+id/assignment_name_text"
+            android:layout_alignParentTop="false"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/score_text"
+            android:textSize="10dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no"
+            android:id="@+id/graded"
+            android:layout_toRightOf="@+id/graded_text"
+            android:layout_alignTop="@+id/graded_text"
+            android:textSize="10dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/details"
+            android:id="@+id/details_text"
+            android:layout_alignLeft="@+id/percent_text"
+            android:layout_alignTop="@+id/graded_text"
+            android:textSize="10dp"/>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/details"
+            android:layout_toRightOf="@+id/percent_text"
+            android:layout_alignTop="@+id/graded_text"
+            android:textSize="10dp"/>
+</RelativeLayout>

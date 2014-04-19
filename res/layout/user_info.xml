@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/username_text"
+            android:id="@+id/username_text"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/username"
+            android:layout_toRightOf="@+id/username_text"
+            android:layout_alignTop="@+id/username_text"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:id="@+id/name_text"
+            android:layout_alignLeft="@+id/username_text"
+            android:layout_below="@+id/username_text"
+            android:layout_marginTop="10dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:layout_toRightOf="@+id/name_text"
+            android:layout_alignTop="@+id/name_text"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/school"
+            android:id="@+id/school_text"
+            android:layout_alignLeft="@+id/username_text"
+            android:layout_below="@+id/name_text"
+            android:layout_marginTop="10dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/school"
+            android:layout_toRightOf="@+id/school_text"
+            android:layout_alignTop="@+id/school_text"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grade"
+            android:id="@+id/grade_text"
+            android:layout_alignLeft="@+id/username_text"
+            android:layout_below="@+id/school_text"
+            android:layout_marginTop="10dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/grade"
+            android:layout_toRightOf="@+id/name_text"
+            android:layout_alignTop="@+id/grade_text"/>
+</RelativeLayout>
