@@ -2,9 +2,9 @@ package com.lukekuza.zangleapp.zangle;
 
 import android.os.AsyncTask;
 import android.util.Log;
-import com.darkscripting.zangle.ZangleConnection;
-import com.darkscripting.zangle.assignment.ZAssignment;
-import com.darkscripting.zangle.classes.ZClass;
+import com.lukekuza.mistar.ZangleConnection;
+import com.lukekuza.mistar.assignment.ZAssignment;
+import com.lukekuza.mistar.classes.ZClass;
 import com.lukekuza.zangleapp.smartdatabase.SmartAssignmentUtil;
 import com.lukekuza.zangleapp.smartdatabase.SmartClassUtil;
 import com.lukekuza.zangleapp.smartdatabase.SmartUserUtil;

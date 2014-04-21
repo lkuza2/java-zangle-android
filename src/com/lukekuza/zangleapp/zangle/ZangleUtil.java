@@ -1,7 +1,7 @@
 package com.lukekuza.zangleapp.zangle;
 
 import android.content.Context;
-import com.darkscripting.zangle.ZangleConnection;
+import com.lukekuza.mistar.ZangleConnection;
 
 /**
  * Created with IntelliJ IDEA.
