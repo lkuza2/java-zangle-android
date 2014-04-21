@@ -37,6 +37,6 @@
     <string name="app_description">A clean,Holo designed Zangle/MI Star App for Android, with goal of being fast and easy to use, with a large set of simple features.</string>
     <string name="app_author">Created By Luke Kuza</string>
     <string name="app_version_text">Version: </string>
-    <string name="app_version">0.5.5</string>
+    <string name="app_version">0.6.5</string>
 
 </resources>
